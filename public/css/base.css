@@ -1,0 +1,29 @@
+body{
+	font:14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+	color:#333;
+	background-color:#fff;
+	min-width:1226px;
+	position: relative;
+}
+.clearfix::before,
+.clearfix::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+iframe{
+	margin: 22px auto;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+img{
+	width: 100%;
+	vertical-align: top;
+}
+
+.w{
+	width: 1226px;
+	margin: 0 auto;
+}
